@@ -1,5 +1,9 @@
 # INDWeather
 
+![screenshot](assets/Screenshot1.png)
+![screenshot](assets/Screenshot2.png)
+![screenshot](assets/Screenshot3.png)
+
 INDWeather is a simple web application that provides weather information for various Indian cities. The application fetches weather data from a weather API and displays the current temperature, humidity, wind speed, and other weather-related information.
 
 ## Features
@@ -55,8 +59,4 @@ Open script.js and replace 'API-key' with your actual API key.
 Bootstrap for the responsive design framework.
 Open Weather API for providing the weather data.
 
-
-![screenshot](images/screenshot1.png)
-![screenshot](images/screenshot2.png)
-![screenshot](images/screenshot3.png)
-
+[def]: images/screenshot3.png
