@@ -64,12 +64,6 @@ document.querySelectorAll('.dropdown-item').forEach(item => {
     });
 });
 
-document.addEventListener('DOMContentLoaded', () => {
-    cities.forEach(city => {
-        getWeather(city);
-    });
-});
-
 document.querySelector('.nav-link[href="#about"]').addEventListener('click', (event) => {
     event.preventDefault();
     document.getElementById('about').scrollIntoView({ behavior: 'smooth' });
