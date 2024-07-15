@@ -20,7 +20,7 @@ const getWeather = (city) => {
                 const deg = response.wind.deg;
                 const visibility = response.visibility;
 
-                // Assuming the API returns temperatures in Fahrenheit, convert them to Celsius
+                // API returns temperatures in Fahrenheit, convert them to Celsius
                 temp = (temp - 32) * 5 / 9;
                 feels_like = (feels_like - 32) * 5 / 9;
                 temp_min = (temp_min - 32) * 5 / 9;
