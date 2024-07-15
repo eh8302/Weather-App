@@ -36,15 +36,19 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ```bash
 git clone https://github.com/your-username/indweather.git
+```
 
 2. Navigate to the project directory:
-    bash
+
+```bash
 cd indweather
+```
 
 3. Open the index.html file in your web browser:
-    bash
-open index.html
 
+```bash
+open index.html
+```
 
 ### API Key
 
@@ -56,7 +60,9 @@ Open script.js and replace 'API-key' with your actual API key.
 
 ### Acknowledgments
 
-Bootstrap for the responsive design framework.
-Open Weather API for providing the weather data.
+- [Bootstrap](https://getbootstrap.com/) for the responsive design framework.
+- [Open Weather API](https://rapidapi.com/open-weather-map/) for providing the weather data.
 
-[def]: images/screenshot3.png
+
+> **Note:** 
+This API does not support fetching data for multiple cities at once. Therefore, I have used static values for the major cities.
